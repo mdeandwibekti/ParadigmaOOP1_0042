@@ -2,14 +2,14 @@
 #define MANUSIA_H
 using namespace std;
 
-class manusia{
+class manusia {
 public:
-	string nama;
+	string name;
 	jantung varJantung;
 
 
 	manusia(string pName)
-		:nama(pName) {
+		:name(pName) {
 		cout << name << " hidup\n";
 	}
 
@@ -18,3 +18,4 @@ public:
 	}
 };
 #endif
+
