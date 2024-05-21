@@ -7,6 +7,7 @@ public:
 	string nama;
 	jantung varJantung;
 
+
 	manusia(string pName)
 		:nama(pName) {
 		cout << name << " hidup\n";
